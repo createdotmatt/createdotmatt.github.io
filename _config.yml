@@ -1,14 +1,39 @@
-# Conversion
-markdown:    kramdown
+# Site settings
+title:       Create.net Developers Portal
+email:       
+author:      Create.net
+description: "The Create.net developer portal."
+baseurl:     ""
+url:         "http://developers.create.net/"
 
-# Turn on recognition of 'Github Flavored Markdown'
-kramdown:
-  input: GFM
+# Google analytics
+google_analytics:
 
-# Backwards-compatibility
-relative_permalinks: false
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
 
-# Sass
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: true
+github_username: createdotnet
+stackoverflow_id:
+twitter_username: createdev
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+#paginate:     3
 sass:
-    sass_dir: _sass
-    style: :compressed
+  compressed: true
