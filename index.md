@@ -6,4 +6,4 @@ layout: page
 
 ###[Web Designer's Kit Documentation](wdk/)
 
-###[API Documentation (Alpha)](API-Documentation/)
+###[API Documentation (Beta)](API-Documentation/)
