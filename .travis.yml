@@ -2,8 +2,8 @@ language: ruby
 rvm:
 - 2.1
 before_install:
-- travis_retry gem install html-proofer
-- travis_retry gem install jekyll
+- gem install html-proofer
+- gem install jekyll
 script: jekyll build && htmlproof ./_site
 
 env:
