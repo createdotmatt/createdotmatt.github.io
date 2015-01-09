@@ -37,3 +37,6 @@ permalink:    pretty
 #paginate:     3
 sass:
   compressed: true
+
+# Travis CI - http://jekyllrb.com/docs/continuous-integration/
+exclude: [vendor]
